@@ -1,0 +1,544 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="goto欢迎来到我的小博客，其实一开始我很纳闷，搞不懂自己为什么到无聊的搭建这样的一个静态的博客。说是让自己熟悉一下一个网站的搭建，但发现使用github，静态页面的搭建并不是很难。博客搭建好之后我就有点不知道要做什么了。最近想了一下，发现总要把自己喜欢的、了解的一些东西写上去，拿出来分享吧！从这个时候开始，我就又更郁闷了，我竟然不知道自己喜欢什么？天啊，都不知道拿什么来拯救自己，好想来个人拯救我">
+<meta property="og:type" content="article">
+<meta property="og:title" content="liqueur">
+<meta property="og:url" content="http://yoursite.com/2016/02/27/liqueur/index.html">
+<meta property="og:site_name" content="Hito">
+<meta property="og:description" content="goto欢迎来到我的小博客，其实一开始我很纳闷，搞不懂自己为什么到无聊的搭建这样的一个静态的博客。说是让自己熟悉一下一个网站的搭建，但发现使用github，静态页面的搭建并不是很难。博客搭建好之后我就有点不知道要做什么了。最近想了一下，发现总要把自己喜欢的、了解的一些东西写上去，拿出来分享吧！从这个时候开始，我就又更郁闷了，我竟然不知道自己喜欢什么？天啊，都不知道拿什么来拯救自己，好想来个人拯救我">
+<meta property="og:image" content="http://7xk0er.com1.z0.glb.clouddn.com/%E8%8D%89%E8%8E%93%E9%85%92.jpg">
+<meta property="og:updated_time" content="2016-06-24T15:06:18.533Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="liqueur">
+<meta name="twitter:description" content="goto欢迎来到我的小博客，其实一开始我很纳闷，搞不懂自己为什么到无聊的搭建这样的一个静态的博客。说是让自己熟悉一下一个网站的搭建，但发现使用github，静态页面的搭建并不是很难。博客搭建好之后我就有点不知道要做什么了。最近想了一下，发现总要把自己喜欢的、了解的一些东西写上去，拿出来分享吧！从这个时候开始，我就又更郁闷了，我竟然不知道自己喜欢什么？天啊，都不知道拿什么来拯救自己，好想来个人拯救我">
+<meta name="twitter:image" content="http://7xk0er.com1.z0.glb.clouddn.com/%E8%8D%89%E8%8E%93%E9%85%92.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2016/02/27/liqueur/"/>
+
+  <title> liqueur | Hito </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Hito</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                liqueur
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-02-27T23:43:46+08:00" content="2016-02-27">
+              2016-02-27
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="goto"><a href="#goto" class="headerlink" title="goto"></a>goto</h3><p>欢迎来到我的小博客，其实一开始我很纳闷，搞不懂自己为什么到无聊的搭建这样的一个静态的博客。说是让自己熟悉一下一个网站的搭建，但发现使用github，静态页面的搭建并不是很难。<br>博客搭建好之后我就有点不知道要做什么了。最近想了一下，发现总要把自己喜欢的、了解的一些东西写上去，拿出来分享吧！从这个时候开始，我就又更郁闷了，我竟然不知道自己喜欢什么？天啊，都不知道拿什么来拯救自己，好想来个人拯救我啊！<br>不知道自己喜欢什么的我，就开始拼命的在自己身上寻找着，不知道是不是只有我是一个孤独的迷茫的人，总算是勉勉强强地发现自己还是挺喜欢喝酒的，并且挺喜欢增进一些关于酒的知识（虽然我现在很多酒都不知道，但兴趣使然，请相信我！不好意思，就是这么的喜欢自勉。）<br><br>不说太多无关的话了，让我为大家献上各种果酒的介绍和制作吧！<br><br>（PS：现在是2016/2/27哦）<br><br></p>
+<h2 id="果酒制作第一课"><a href="#果酒制作第一课" class="headerlink" title="果酒制作第一课"></a>果酒制作第一课<br></h2><h3 id="为大家献上我个人比较喜欢的草莓酒"><a href="#为大家献上我个人比较喜欢的草莓酒" class="headerlink" title="为大家献上我个人比较喜欢的草莓酒"></a>为大家献上我个人比较喜欢的草莓酒</h3><p>草莓酒有许多的功效，比如补气健胃、生津止渴，增进食欲，含有丰富的维生素从、柠檬酸，可美化肌肤，美艳美容，爱美的女子赶紧来品尝哦。<br>下面是具体的做法：<br><br>草莓酒一般有两种类别，一是草莓酿造酒，二是草莓浸泡酒，家庭以第二种居多，下面我只介绍第二种：<br><br>材料：草莓250g，黄皮柠檬半个，冰糖50g，米酒500cc（大家可以根据自己的量来成倍的增加各种量）<br><br><br>工具：密封玻璃罐一个。<br>做法：<br><br>1、以热水烫洗玻璃罐并风干。<br><br>2、挑选果实坚实、成熟并且没有破皮的草莓（注意破皮的草莓会造成草莓酒浑浊化），小心地摘掉叶蒂（小心不要伤害到草莓，摘掉草莓的叶子即可，不要把整个蒂切掉），洗净，擦干。<br><br>3，把柠檬削去皮，切半个备用。<br><br>4，将所有的原料加入玻璃瓶中，注入米酒，加盖封存后放置阴暗处保存。<br><br>5，第2~3周要把草莓和柠檬取出，盖好继续酿制。<br></p>
+<h2 id="PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。"><a href="#PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。" class="headerlink" title="PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。"></a>PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。<br></h2><h3 id="希望你喝到自己酿制的草莓酒时能够收获到成功的味道。"><a href="#希望你喝到自己酿制的草莓酒时能够收获到成功的味道。" class="headerlink" title="希望你喝到自己酿制的草莓酒时能够收获到成功的味道。"></a>希望你喝到自己酿制的草莓酒时能够收获到成功的味道。<br></h3><p><img src="http://7xk0er.com1.z0.glb.clouddn.com/%E8%8D%89%E8%8E%93%E9%85%92.jpg" alt="草莓酒"></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/06/24/多媒体/" rel="prev" title="多媒体">
+                多媒体 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Hito" />
+          <p class="site-author-name" itemprop="name">Hito</p>
+          <p class="site-description motion-element" itemprop="description">多媒体作业</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#goto"><span class="nav-number">1.</span> <span class="nav-text">goto</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#果酒制作第一课"><span class="nav-number"></span> <span class="nav-text">果酒制作第一课</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#为大家献上我个人比较喜欢的草莓酒"><span class="nav-number">1.</span> <span class="nav-text">为大家献上我个人比较喜欢的草莓酒</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。"><span class="nav-number"></span> <span class="nav-text">PS：最好贴上开始酿制的日期，避免以后忘了，草莓酒最好喝的时期是酿制后3个月开始。</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#希望你喝到自己酿制的草莓酒时能够收获到成功的味道。"><span class="nav-number">1.</span> <span class="nav-text">希望你喝到自己酿制的草莓酒时能够收获到成功的味道。</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hito</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
