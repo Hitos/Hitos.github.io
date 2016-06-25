@@ -1,8 +1,8 @@
 // Create the canvas
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 512;
-canvas.height = 480;
+canvas.width = 680;//512;
+canvas.height = 637;
 document.body.appendChild(canvas);
 
 // Background image
@@ -19,15 +19,14 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "images/hero.png";
-
+heroImage.src = "images/test1.png";
 // Monster image
 var monsterReady = false;
 var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "images/monster.png";
+monsterImage.src = "images/55.png";
 
 // Game objects
 var hero = {
@@ -74,10 +73,10 @@ var update = function (modifier) {
 
 	// Are they touching?
 	if (
-		hero.x <= (monster.x + 32)
-		&& monster.x <= (hero.x + 32)
-		&& hero.y <= (monster.y + 32)
-		&& monster.y <= (hero.y + 32)
+		hero.x <= (monster.x + 42)
+		&& monster.x <= (hero.x + 42)
+		&& hero.y <= (monster.y + 42)
+		&& monster.y <= (hero.y + 42)
 	) {
 		++monstersCaught;
 		reset();
